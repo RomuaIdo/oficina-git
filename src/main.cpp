@@ -8,11 +8,11 @@ int main() {
        > ^ <
     )";
     
-    string meuNome = "Foobar";
-    string meuTitulo = "Foobar Developer";
-    string meuContato = "github.com/foobar";
+    string meuNome = "Maria";
+    string meuTitulo = "Maria Developer";
+    string meuContato = "github.com/maria";
 
-    string minhaCor = Color::Green;
+    string minhaCor = Color::Red;
 
     
     ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor);
