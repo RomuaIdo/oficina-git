@@ -11,11 +11,11 @@ int main() {
     string meuNome = "Robson Rosbife";
     string meuTitulo = "Chefe de Pastelaria";
     string meuContato = "github.com/rosbife";
+    string meuHobby = "Cozinhar Pastel";
 
     string minhaCor = Color::Red;
 
-    
-    ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor);
+    ProfileGreeter Greeter(meuNome, meuTitulo, meuContato, minhaArte, minhaCor, meuHobby);
     
     Greeter.clear();
     Greeter.print();
